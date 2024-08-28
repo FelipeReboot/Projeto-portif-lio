@@ -230,7 +230,7 @@ h2 {
 
 footer {
     background-color: #567740;
-    margin-top: 7.5%;
+    margin-top:18.8%;
     justify-content:  right;
 }
 
@@ -251,3 +251,19 @@ footer .list2 {
     padding-top: 10px;
 
 }
+
+table{
+    padding-bottom: 5px;
+}
+
+table tr{
+    font-family: 'Times New Roman', Times, serif;
+    color: #a27035;
+}
+table button{
+    background-color:var(--verde);
+    color: black;
+    border: 2px solid var(--mescuro);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+}/* formatação do botão de envio*/
