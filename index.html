@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio - Felipe Barbosa</title>
+</head>
+<link rel="stylesheet" href="style.css"> <!-- link para a stylesheet, optei por colocar a maior parte dos estilos 
+em uma pagina separada para poder observar a estrutura do codigo com mais clareza-->
+
+<body style="background-color:#f1ecd9;"> <!-- Style com a cor desejada de fundo -->
+
+    <nav>
+        <!-- Barra de navegação composta de duas listas dentro de outra lista. A list aaninhada serve para que o layout funcione da maneira desejada, dispondo elementos em cada estremidade da barra -->
+        <ul>
+            <ul>
+                <li>
+                    <a href="#" alt="Olá, bem vindo!Eu sou o Felipe" style="border-style:groove;">F.</a>
+                    <!-- Botão "logo" -->
+                </li>
+            </ul>
+            <ul class="listone" style="font-size: 28px; padding-top:23px ; padding-bottom:2px; ">
+                <!-- barra de navegação com botões que levam as demais sessões da pagina -->
+                <li><a href="#sobremim">Sobre mim</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#portifolio">Portifólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </ul>
+    </nav>
+
+    <section class="section1">
+        <!-- A primeira sessão é um bloco inteiro de informações, as sessões posteriores seguem o mesmo padrão  -->
+        <img class="foto1" src="images/foto1.jpg" alt="foto de Felipe Barbosa">
+        <article>
+            <h1 id="sobremim">Um pouco sobre mim.</h1> <!--id utilizado para posicionar os links e estilização-->
+            <p class="text1"> <!-- Classe utilizada para estilização -->
+                Olá, meu nome é Felipe, marido da Gabriela e pai do Isaac. sou entusiasta de quadrinhos e mangás, toco
+                guitarra, faço origamis e
+                tambem sou apaixonado por artes marciais. Sou estudante de Analise e Desenvolvimento de sistemas, meu objetivo
+                é me tornar um desenvolvedor full stack, com enfase em cyber segurança.
+            </p>
+        </article>
+    </section>
+
+    <section class="section2"> <!-- Segundo Bloco de informações -->
+        <article>
+            <h1 id="formacao">Formação</h1> <!-- h1 como titulo de uma sessão -->
+            <h2>Técnico em enfermagem. <!-- h2 como subtitulos-->
+                <p class="text2"> <!-- estilização utilizando classes -->
+                    Formado em 2023 e atuando na area desde 2019. O contato com os paciente
+                    ajudou muito a desenvolver minhas "soft skills".
+                </p>
+            </h2>
+            <h2>Idiomas.
+                <p class="text2">
+                    Alem da minha lingua nativa. eu aprendi Inglês com meu pai quando criança, não tenho estudo formal
+                    mas falo e escrevo
+                    fluentemente. </p>
+            </h2>
+
+            <h2>Análise e Desenvolvimento de Sistemas.
+                <p class="text2">
+                    Inicei meus estudos formais na area de dados em 2024 pela uninter, mas sou entusiasta de
+                    programação a alguns anos.
+                </p>
+
+            </h2>
+        </article>
+        <figure> <!-- tag figure para ser adicionada uma legenda a foto-->
+            <img class="foto2" src="images/foto2.jpg" alt="Foto de Felipe Barbosa tendo uma excelente ideia">
+            <figcaption><!-- tag da foto-->
+                <p class="legenda" style="max-width:fit-content;"><i>"A foto é um registro visual de quando eu tenho uma
+                        boa idéia, como quando
+                        eu
+                        resolvi ser engraçadinho nessa página pessoal"</i></p>
+            </figcaption>
+        </figure>
+    </section>
+
+    <section class="section3" style="margin-top: 2px;"> <!-- Sessão 3 segue a mesma logica das outras sessoes-->
+        <article>
+            <h1 id="portifolio" style="padding-bottom: 0px;">Portifólio </h1>
+            <br>
+            <h2>Um pouco vazio por aqui.</h2>
+            <p class="text3" style="margin-bottom: 0px; padding-bottom: 0px;">
+                Bom, alem dessa pagina não há muito o que eu tenha pra postar aqui por enquanto,
+                mas isso vai mudar! você pode conferir meu Github logo abaxo, vou adicionando mais coisas por lá.
+            </p>
+            <h2>Meu filho.</h2>
+            <p class="text3">
+                Esse rapazinho aqui eu fiz, acho eu que nunca mais farei algo tão maravilhoso.
+            </p>
+        </article>
+        <figure>
+            <img class="foto3" src="images/foto3.jpeg" alt="Foto de Felipe segurando seu filho Isaac">
+            <figurecaption>
+                <p class="legenda2"><i>"Uma foto de um dia maravilhoso, com a a coisa mais linda que eu ja
+                        fiz ou vou fazer."
+                    </i></p>
+            </figurecaption>
+        </figure>
+    </section>
+
+    <section class="secquotes1" style="margin-left: 68%;"> <!--Essa sessao sem float preenche os espaços em brancos com um texto-->
+        <p> "Uma jornada de mil milhas </p> </section> <!--A margem serve para posicionamento do elemento na poagina-->
+    
+    <section class="secquotes1"> <!--Essa sessao sem float preenche os espaços em brancos com um texto-->
+        <p>Começa com um passo".<br> -Lao Tzu</p>
+    </section>
+
+    <section class="section4"> <!--Sessão 4 contem os links para contato, segue a mesma logica das outraS-->
+        <article>
+            <h1 id="contato">Contato</h1>
+
+            <h2 class="h2cont">Minhas Redes Sociais</h2> 
+
+            <a class="links" href="https://www.instagram.com/ashorigami/" target="_blank" alt="link para o instagram">
+                Instagram. <!--links com target="_blank" abrem em uma nova aba-->
+            </a>
+            <br>
+            <a class="links" href="https://github.com/FelipeReboot" target="_blank" alt="link para o github">
+                Github.
+            </a>
+            <h2 class="h2cont">Email</h2>
+            <p class="links">papelelinhakraft@gmail.com</p>
+        </article>
+    </section>
+
+    <div class="fposit"> <!--Elemento puramente estético-->
+        <p class="f1">F.</p>
+    </div>
+
+    <footer> <!--Footer da pagina-->
+
+        <spam class="list2">
+            <p>2024 <br>Por Felipe Barbosa</p>
+        </spam>
+
+    </footer>
+
+</body>
+
+</html>

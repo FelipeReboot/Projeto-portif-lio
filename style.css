@@ -1,0 +1,253 @@
+:root {
+    --verde: #abc798;
+    --beje: #e1dabd;
+    --mclaro: #a27035;
+    --mescuro: #533e2d;
+    --preto: #242331;
+    --verdeE: #567740;
+
+} /* Paleta de cores utilizada na pagina, corem em harmonia umas com as outras e conversando com as fotos*/
+
+ul {
+    background-color: #567740;
+    margin-bottom: 0px;
+    display: flex;
+    padding-left: 10px;
+    padding-top: 13px;
+    padding-right: 20px;
+    padding-bottom: 13px;
+    list-style: none;
+    font-size: 45px;
+    justify-content: space-between; 
+    margin-top: 0;
+} /*Estilização da barra de navegação*/
+
+ul li a {
+    text-decoration: none; /* apaga formatação original do link*/
+    text-align: right;
+    color: #e1dabd;
+    font-family: 'Times New Roman', Times, serif; /*Fonte utilizada em toda a pagina*/
+    padding-left: 10px;
+    padding-right: 10px;
+
+
+}
+
+.listone :hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+.foto1 {
+    width: 38%;
+    height: auto;
+} /*Essa confirguração mantem as proporçoes da foto e a diminui conforme nescessario*/
+
+.section1 {
+    display: flex;
+    background-color: #abc798;
+    margin-bottom: 2px;
+
+}
+
+#sobremim {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+    padding-top: 230px;
+    padding-left: 40px;
+    color: #a27035;
+    text-align: center;
+    padding-bottom: 0px;
+}
+
+.text1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    padding-top: 10px;
+    color: #567740;
+    text-align: left;
+    max-width: 500px;
+    padding-left: 40px;
+}
+
+.foto2 {
+    width: 90%;
+    height: 90%;
+}
+
+.section2 {
+    display: flex;
+    background-color: var(--beje);
+    max-width: 65%;
+    max-height: auto;
+    position: relative; /* posicionamento do bloco de informaçoes*/
+    float: left;
+}/*configuração de estilo da sessao 2 */
+
+
+#formacao {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+    padding-top: 180px;
+    padding-left: 40px;
+    color: #567740;
+    text-align: left;
+    padding-bottom: 0px;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    padding-left: 70px;
+    color: var(--mclaro);
+    text-align: left;
+    padding-bottom: 0px;
+} /* Configuração do estilo de subtitulo*/
+
+
+.text2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    padding-right: 0;
+    color: #92aa82;
+    text-align: left;
+    padding-bottom: 30px;
+
+}
+
+.legenda {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding-right: 20px;
+    color: var(--mclaro);
+
+}
+
+#portifolio {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+    padding-top: 150px;
+    padding-left: 40px;
+    color: #a27035;
+    text-align: left;
+    padding-bottom: 0px;
+}
+
+.section3 {
+    display: flex;
+    background-color: #abc798;
+    margin-bottom: 2px;
+    max-width: 60%;
+    max-height: auto;
+    position: relative;
+    float: right;
+    padding-bottom: 20x;
+}
+
+.foto3 {
+    width: 90%;
+    height: auto;
+}
+
+.text3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    padding-right: 0;
+    padding-left: 5px;
+    color: #567740;
+    text-align: right;
+    padding-bottom: 30px;
+}
+
+.legenda2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding-right: 20px;
+    color: var(--mescuro);
+}
+
+.secquotes1 {
+    font-size: 142px;
+    padding-top: 200px;
+    padding-left: 20px;
+    color: #533e2d;
+    margin-bottom:0px;
+    padding-bottom: 0px;
+} /* os paddings e margins sao para posicionar o elemento na pagina*/
+
+
+.section4 {
+    background-color: #e1dabd;
+    margin-bottom: 2px;
+    display: flex;
+    width: 60%;
+    height: auto;
+    position: relative;
+    float: left;
+}
+
+#contato {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 90px;
+    padding-left: 40px;
+    color: #567740;
+    text-align: left;
+
+}
+
+.h2cont {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    color: var(--mclaro);
+    text-align: left;
+    padding-left: 10px;
+
+}
+
+.links {
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    text-align: center;
+    color: #533e2d;
+    padding-left: 20px;
+
+}
+
+.f1 {
+    font-size: 300px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: right;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+}
+
+.fposit {
+    justify-content: center;
+    padding-right: 250px;
+    padding-bottom: 0px;
+}
+
+footer {
+    background-color: #567740;
+    margin-top: 7.5%;
+    justify-content:  right;
+}
+
+footer .list2 {
+    padding: 5px;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+.list2 p {
+    background-color: #567740;
+    margin-bottom: 0px;
+    list-style: none;
+    margin-top: 1px;
+    font-size: 20px;
+    color:var(--beje);
+    padding-left: 2%;
+    padding-top: 10px;
+
+}
